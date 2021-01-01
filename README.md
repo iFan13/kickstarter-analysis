@@ -56,19 +56,28 @@ Variable solution formula:
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-One conclusion that can be drawn based on the data is that *theater* ventures are most often launched in May. Secondarily, based on the distance between the successful point height to a super imposed failed and canceled point, it can be suggested that ventures launched in May also have the highest success rate. This is confirmed by actual calculation taking the count of successful outcomes divided by the total of outcomes in the given month as shown by the screen capture below.
+One conclusion that can be drawn based on the data is that *theater* ventures are most often launched in May. Secondarily, based on the distance between the successful point height to a super imposed failed and canceled point, it can be suggested that ventures launched in May also have the highest success rate. This is confirmed by actual calculation taking the count of successful outcomes divided by the total of outcomes in the given month as shown by the screen capture below. 
 
 ![Success_rate_of_theater_vs_launch_month](/resources/Success_rate_of_theater_vs_launch_month.png)
 
+One issue with this presented data is that is does not specify the sub category of plays and results may therefore be slightly skewed or inaccurate.
 
 - What can you conclude about the Outcomes based on Goals?
 
-It can be concluded that 
+It can be implied based on the graphed information that there is typically higher probability of successful funding the lower the goal is however also spikes to higher probability of success for funding projects with a goal of 35000 to 44999. The other conclusion that may be drawn is that *with zero 'percent canceled'*, having both percentage successful and percentage failed graphed together does not provide any value added information because they are complimentary to reach 100% and using either of 'Percentage Successful' or 'Percentage Failed' provides the same information; just in an optimistic or pessimistic perspective based on tracking success or failure. 
 
 - What are some limitations of this dataset?
 
-
+Based on raw data alone, some of
 
 - What are some other possible tables and/or graphs that we could create?
 
-Additional tables or graphs that can be created 
+As touched on in drawing conclusions about the 'Outcomes based on Launch Date', an additional filter to add to the pivot table would be to specify 'plays'. Adding the filter 'Subcategory' with respects to 'plays' provides us with a new revelation: that June is the highest success rate for launching kickstarters, as sampled below.
+
+![Success_rate_of_plays_vs_launch_month](/resources/Success_rate_of_plays_vs_launch_month.png)
+
+Additionally, presenting success and failure with respects to both goal and time elapsed (between date created and date ended) can provide additional insight. For instance, a high goal with a short elapsed time presents the suggestion to start one's Kickstarter before funds are critically needed to allow for exposure time and donation. 
+
+Another series of data that could be examined in tables or charts could be based on region or 'country'. A pivot table by countries for rows for instance can provide insight on interest and success rate by the size of a stacked bar graph (example depicted below). However, being that Kickstarter is a American corporation, it's likely that this data shows bias towards American projects.
+
+![PlayOutcomesByCountry](/resources/PlayOutcomesByCountry.png)
