@@ -22,11 +22,11 @@ To create the above chart, a pivot table was created from the 'Kickstarter' work
 * outcomes in the Values
 * Date Created Conversion in Rows
 
-![PivotTableFields](/resources/PivotTableFields.png)
+![PivotTableFields](/resources/PivotTableFields.PNG)
 
 Then the pivot table was filtered on by category for 'theater' and column labels sorted descending (or Z to A) and filtered for 'not including "live"'.
 
-![PivotTableColumnsFiltered](/resources/PivotTableColumnsFiltered.png)
+![PivotTableColumnsFiltered](/resources/PivotTableColumnsFiltered.PNG)
 
 
 ### Analysis of Outcomes Based on Goals
@@ -35,7 +35,13 @@ Then the pivot table was filtered on by category for 'theater' and column labels
 
 ### Challenges and Difficulties Encountered
 
-There were no difficulties encountered to producing the above visualizations. Potential difficulties could have been missing the request to examine a distinct sub category. Additionally, potential errors could have included mis-typing and incorrect formula generation. Inputting the formula for each cell (B1:H13) would be tedious and can be prone to error. As a results, my solution was to use excel's `CONCATENATE()` function and it's short cut (`&`) in the formula and setting conditions in other cells (that could later be hidden) and unique entry filtered lists from 'Kickstarter' sheet
+There were no difficulties encountered to producing the above visualizations. Potential difficulties could have been missing the request to examine a distinct sub category. Additionally, potential errors could have included mis-typing and incorrect formula generation. Inputting the formula for each cell (B1:H13) would be tedious and can be prone to error. As a results, my solution was to use excel's `CONCATENATE()` function and it's short cut (`&`) in the formula and setting conditions in other cells (that could later be hidden) and unique entry filtered lists from 'Kickstarter' sheet. 
+
+Hard coded formula:
+![HardCodedFormula](/resources/HardCodedFormula.PNG)
+
+Variable solution formula:
+![ImprovedFormula](/resources/ImprovedFormula.PNG)
 
 ## Results
 
