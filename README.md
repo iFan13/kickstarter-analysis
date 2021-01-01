@@ -15,6 +15,19 @@ Louise's play *Fever* came close to it's fundraising goal in a short amountof ti
 ### Analysis of Outcomes Based on Launch Date
 ![Theater_Outcomes_vs_Launch](/resources/Theater_Outcomes_vs_Launch.png)
 
+To create the above chart, a pivot table was created from the 'Kickstarter' worksheet and applying the following fields to the pivot report areas respectively.
+
+* Parent Category and Years (a created field by using the `YEAR()` function with the argument of the Date Created Conversion field) in the Filters
+* outcomes in the Columns
+* outcomes in the Values
+* Date Created Conversion in Rows
+
+![PivotTableFields](/resources/PivotTableFields.png)
+
+Then the pivot table was filtered on by category for 'theater' and column labels sorted descending (or Z to A) and filtered for 'not including "live"'.
+
+![PivotTableColumnsFiltered](/resources/PivotTableColumnsFiltered.png)
+
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](/resources/Outcomes_vs_Goals.png)
