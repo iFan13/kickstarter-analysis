@@ -6,7 +6,7 @@ The purpose of this analysis is to provide Louise with easily digestable informa
 
 ### Purpose
 
-Louise's play *Fever* came close to it's fundraising goal in a short amountof time. She wants to understand how different campaigns fared in relation to their launch dates and their funding goals. This analysis will provide visual representations of various campaign's statistics with respects to relevant categories to Louise's project in question (that is: her theatre play *Fever*). Source data for this analysis is also included [here](/Kickstarter_Challenge.xlsx)
+Louise's play *Fever* came close to it's fundraising goal in a short amountof time. She wants to understand how different campaigns fared in relation to their launch dates and their funding goals. This analysis will provide visual representations of various campaign's statistics with respects to relevant categories to Louise's project in question (that is: her theater play *Fever*). Source data for this analysis is also included [here](/Kickstarter_Challenge.xlsx)
 
 
 ## Analysis and Challenges
@@ -22,9 +22,14 @@ Louise's play *Fever* came close to it's fundraising goal in a short amountof ti
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+A conclusion that can be drawn based on the data is that *theater* ventures are most often launched in May. Further to that, based on the distance between the successful point height to a super imposed failed and canceled point, it can be suggested that ventures launched in May also have the highest success rate. This is confirmed by actual calculation taking the count of successful outcomes divided by the total of outcomes in the given month as shown by ![Success_rate_of_theater_vs_launch_month](/resources/Success_rate_of_theater_vs_launch_month.png)
+
 
 - What can you conclude about the Outcomes based on Goals?
+It can be concluded that 
 
 - What are some limitations of this dataset?
 
+
 - What are some other possible tables and/or graphs that we could create?
+Additional tables or graphs that can be created 
