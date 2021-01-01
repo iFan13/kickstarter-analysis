@@ -36,9 +36,7 @@ Then the pivot table was filtered on by category for 'theater' and column labels
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](/resources/Outcomes_vs_Goals.png)
 
-To create the above graph, it was necessary to count the number of successful, failed and canceled kickstarters with respects to the subcategory 'plays'. This was done using the `COUNTIFS()` function with criteria based on the goal field separated by goal brackets, starting with goals from zero to 999, 1000 to 4999, 5000 to 9999, and so on until greater than 50000. 
-
-The x-axis uses the goal brackets while the data series are the fields 'Percentage Successful', 'Percentage Failed', and 'Percentage Canceled'. As depicted below.
+To create the above graph, it was necessary to count the number of successful, failed and canceled kickstarters with respects to the subcategory 'plays'. This was done using the `COUNTIFS()` function with criteria based on the goal field separated by goal brackets, starting with goals from zero to 999, 1000 to 4999, 5000 to 9999, and so on until greater than 50000. A summation of the counts by goal brackets was then performed. Finally, to provide a sense of scale, the counts are respectively divided by the summation to provide percentage successful, percentage failed and percentage cancelled. On the graph itself, the x-axis uses the goal brackets while the data series are the fields 'Percentage Successful', 'Percentage Failed', and 'Percentage Canceled'. As depicted below.
 
 ![ChartSelectData](/resources/ChartSelectData.png)
 
@@ -58,7 +56,7 @@ Variable solution formula:
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-A conclusion that can be drawn based on the data is that *theater* ventures are most often launched in May. Further to that, based on the distance between the successful point height to a super imposed failed and canceled point, it can be suggested that ventures launched in May also have the highest success rate. This is confirmed by actual calculation taking the count of successful outcomes divided by the total of outcomes in the given month as shown by the screen capture below.
+One conclusion that can be drawn based on the data is that *theater* ventures are most often launched in May. Secondarily, based on the distance between the successful point height to a super imposed failed and canceled point, it can be suggested that ventures launched in May also have the highest success rate. This is confirmed by actual calculation taking the count of successful outcomes divided by the total of outcomes in the given month as shown by the screen capture below.
 
 ![Success_rate_of_theater_vs_launch_month](/resources/Success_rate_of_theater_vs_launch_month.png)
 
@@ -68,6 +66,7 @@ A conclusion that can be drawn based on the data is that *theater* ventures are 
 It can be concluded that 
 
 - What are some limitations of this dataset?
+
 
 
 - What are some other possible tables and/or graphs that we could create?
