@@ -24,6 +24,10 @@ To create the above chart, a pivot table was created from the 'Kickstarter' work
 
 ![PivotTableFields](/resources/PivotTableFields.PNG)
 
+The Advanced Filter dialogue is shown below.
+
+![AdvancedFilter](/resources/AdvancedFilter.png)
+
 Then the pivot table was filtered on by category for 'theater' and column labels sorted descending (or Z to A) and filtered for 'not including "live"'.
 
 ![PivotTableColumnsFiltered](/resources/PivotTableColumnsFiltered.PNG)
@@ -32,6 +36,11 @@ Then the pivot table was filtered on by category for 'theater' and column labels
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](/resources/Outcomes_vs_Goals.png)
 
+To create the above graph, it was necessary to count the number of successful, failed and canceled kickstarters with respects to the subcategory 'plays'. This was done using the `COUNTIFS()` function with criteria based on the goal field separated by goal brackets, starting with goals from zero to 999, 1000 to 4999, 5000 to 9999, and so on until greater than 50000. 
+
+The x-axis uses the goal brackets while the data series are the fields 'Percentage Successful', 'Percentage Failed', and 'Percentage Canceled'. As depicted below.
+
+![ChartSelectData](/resources/ChartSelectData.png)
 
 ### Challenges and Difficulties Encountered
 
