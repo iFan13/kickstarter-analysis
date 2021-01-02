@@ -68,7 +68,7 @@ It can be implied based on the graphed information that there is typically highe
 
 - What are some limitations of this dataset?
 
-Based on raw data alone, some of
+The dataset is limited in that a majority of records are for American projects and for American dollars. With respects to outcomes based on goals, it is possible that data is skewed as a result of currency conversions as well. For instance, a goal of $900 GBP would be categorized in the sub $1000 goal bracket but when equalized to a common currency (for example: USD), then that campaign should be categorized as a $1000-4999 bracket goal. There is another limitation in that there may be data outliers or skews towards successful campaigns due to alternative purposes of using Kickstarter. For instance, illogically low Kickstarters (ie: $1 goal kickstarters) are considered "trophy case kickstarters" where campaigns are launched for products that are already completed (and cannot be invest in them) but will show up on Kickstarter's "most funded" page and act as form of advertisement. In this analysis of a play, the likelihood of this sort of campaign is slim but not impossible to have.
 
 - What are some other possible tables and/or graphs that we could create?
 
@@ -78,6 +78,6 @@ As touched on in drawing conclusions about the 'Outcomes based on Launch Date', 
 
 Additionally, presenting success and failure with respects to both goal and time elapsed (between date created and date ended) can provide additional insight. For instance, a high goal with a short elapsed time presents the suggestion to start one's Kickstarter before funds are critically needed to allow for exposure time and donation. 
 
-Another series of data that could be examined in tables or charts could be based on region or 'country'. A pivot table by countries for rows for instance can provide insight on interest and success rate by the size of a stacked bar graph (example depicted below). However, being that Kickstarter is a American corporation, it's likely that this data shows bias towards American projects.
+Another series of data that could be examined in tables or charts could be based on region or 'country'. A pivot table by countries for rows for instance can provide insight on interest and success rate by the size of a stacked bar graph (example depicted below). However as previous mentioned, being that Kickstarter is a American corporation, it's likely that this data shows bias towards American projects and can be demonstrated by the number of American records as well.
 
 ![PlayOutcomesByCountry](/resources/PlayOutcomesByCountry.png)
