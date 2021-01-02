@@ -13,7 +13,7 @@ Louise's play *Fever* came close to it's fundraising goal in a short amountof ti
 
 
 ### Analysis of Outcomes Based on Launch Date
-![Theater_Outcomes_vs_Launch](/resources/Theater_Outcomes_vs_Launch.PNG)
+![Theater_Outcomes_vs_Launch](/resources/Theater_Outcomes_vs_Launch.png)
 
 To create the above chart, a pivot table was created from the 'Kickstarter' worksheet and applying the following fields to the pivot report areas respectively.
 
