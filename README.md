@@ -8,8 +8,6 @@ The purpose of this analysis is to provide Louise with easily digestable informa
 
 Louise's play *Fever* came close to it's fundraising goal in a short amountof time. She wants to understand how different campaigns fared in relation to their launch dates and their funding goals. This analysis will provide visual representations of various campaign's statistics with respects to relevant categories to Louise's project in question (that is: her theater play *Fever*). Source data for this analysis is also included [here](/Kickstarter_Challenge.zip).
 
-[here](/resources/thing.txt)
-
 ## Analysis and Challenges
 
 
